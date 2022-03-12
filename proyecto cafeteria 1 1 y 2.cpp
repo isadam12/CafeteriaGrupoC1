@@ -1,5 +1,11 @@
 #include<iostream>
+#include <thread>
+#include <chrono>
+#include <conio.h>
+
 using namespace std;
+using namespace std::this_thread;
+using namespace std::chrono;
 int main()
 {
 	cout << "Bienvenido a la cafeteria C" << endl;
@@ -15,6 +21,11 @@ int main()
     cout<<"2-. Recomendacion del Chef - 5 minutos"<<endl;
     cout<<"3-. Pizza Napolitana - 2 minutos"<<endl; 
     cin>>opcion; 
+    int main ();
+int segundo=5;
+int minuto=0;
+int hora=0;	
+int fin=0;
 	if (opcion == 1) {
 		cout<<"Ha seleccionado Plato del Dia. Estara listo en un momento. "<<endl;
 
